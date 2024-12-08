@@ -30,8 +30,7 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
-          - worker-node01
-
+          - k8sslave1
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
